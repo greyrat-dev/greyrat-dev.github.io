@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- HTML Meta Tags -->
+        <title>greyrat.dev - Free subdomains for developers</title>
+        <meta name="description" content="A service to allow developers to get free `.greyrat.dev` subdomains" />
+        <meta name="theme-color" content="#4E3AA3" />
+
+        <!-- Google / Search Engine Tags -->
+        <meta itemprop="name" content="greyrat.dev" />
+        <meta itemprop="description" content="A service to allow developers to get free `.greyrat.dev` subdomains" />
+        <meta itemprop="image" content="https://greyrat.dev/assets/logo.png" />
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://greyrat.dev/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="greyrat.dev" />
+        <meta property="og:description" content="A service to allow developers to get free `.greyrat.dev` subdomains" />
+        <meta property="og:image" content="https://greyrat.dev/assets/logo.png" />
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="greyrat.dev" />
+        <meta name="twitter:description" content="A service to allow developers to get free `.greyrat.dev` subdomains" />
+        <meta name="twitter:image" content="https://greyrat.dev/assets/logo.png" />
+
+        <!-- Apple Meta Tags -->
+        <meta name="apple-mobile-web-app-title" content="greyrat.dev" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="styles/main.css" />
+        <link rel="stylesheet" href="https://cdn.hisoka.net/greyrat-dev/website/fonts/Roboto/font.css" rel="prefetch">
+        <link rel="stylesheet" href="https://cdn.hisoka.net/greyrat-dev/website/fonts/UbuntuMono/font.css" rel="prefetch">
+
+        <!-- Scripts -->
+        <script defer data-domain="greyrat.dev" src="https://analytics.hrsn.net/js/script.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <div class="banner"><img src="https://raw.githubusercontent.com/greyrat-dev/register/main/media/banner.png" alt="greyrat.dev" style="max-width: 100%; height: auto;" /></div>
+            <h3>Grab your own sweet-looking <span>.greyrat.dev</span> subdomain.</h3>
+
+            <p>
+                To register your own subdomain, visit the
+                <a href="https://github.com/greyrat-dev/register" target="_blank">greyrat-dev/register</a>
+                repository on GitHub and follow the provided instructions.
+            </p>
+
+            <script async type="text/javascript"
+                src="//cdn.carbonads.com/carbon.js?serve=CW7DE2JU&placement=greyratdev&format=cover"
+                id="_carbonads_js"></script>
+
+            <h2>Check Subdomain Availability<small><a target="_blank" href="https://all.greyrat.dev/">List of all subdomains</a></small></h2>
+            <div class="search-cntnr">
+                <input id="search-domain" disabled type="text">
+            </div>
+            <div>
+                <div id="result-card" class="hidden result-card">
+                        <div class="user-infos">
+                            <img id="user-avatar" class="user-avatar" alt="user-avatar" href="https://github.com/github.png?size=64" draggable="false">
+                            <span>This subdomain is owned by <a id="user-gh" target="_blank"><span id="user-gh-name" class="font-semibold"></span></a>.</span>
+                        </div>
+                </div>
+
+                <p id="result-none" class="hidden">That subdomain is available, <a alt="register-docs" target="_blank" href="https://docs.greyrat.dev">click here</a> to learn how to register it!</p>
+                <p id="result-error" class="hidden">An error occurred whilst processing your request, please try again.</p>
+                <p id="result-reserved" class="hidden">Unfortunately the subdomain you have searched for is reserved, please try a different subdomain.</p>
+            </div>
+
+            <h2>Important Links</h2>
+            <ul>
+                <li><a href="https://docs.greyrat.dev">Documentation</a></li>
+                <li><a href="https://github.com/greyrat-dev">GitHub</a></li>
+            </ul>
+
+            <h2>Report Abuse</h2>
+            <p>
+                If you suspect that a subdomain is abusing the service, please
+                <a href="https://github.com/greyrat-dev/register/issues/new?labels=report-abuse&template=report-abuse.md&title=Report+abuse"
+                    target="_blank">
+                    report it here</a>.
+            </p>
+
+            <br>
+
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> greyrat.dev - All Rights Reserved.
+                <br>
+                A project by <a href="https://hisoka.net">Hisoka Labs</a>.
+            </p>
+        </main>
+
+        <script src="scripts/subdomain-availability.js"></script>
+    </body>
+</html>

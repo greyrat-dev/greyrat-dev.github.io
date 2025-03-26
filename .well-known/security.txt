@@ -1,0 +1,6 @@
+Contact: mailto:security@greyrat.dev
+Contact: mailto:admin@dikaardnt.com
+Expires: 2026-01-01T16:00:00.000Z
+Preferred-Languages: en
+Canonical: https://greyrat.dev/.well-known/security.txt
+Policy: https://github.com/greyrat-dev/register/blob/main/SECURITY.md
