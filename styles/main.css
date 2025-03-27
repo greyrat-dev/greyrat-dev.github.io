@@ -200,15 +200,6 @@ input::placeholder {
     }
 }
 
-/* Carbon Ads */
-#carbonads {
-    padding-top: 20px;
-}
-
-#carbonads .carbon-poweredby {
-    color: #ffffff;
-}
-
 /* Selection */
 ::-moz-selection {
     color: #fff;
